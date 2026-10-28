@@ -1,10 +1,11 @@
 const CACHE_NAME = 'finance-app-v1';
+const BASE_PATH = '/finance-tracker';
 const urlsToCache = [
-  '/finance-tracker/',
-  '/finance-tracker/index.html',
-  '/finance-tracker/styles.css',
-  '/finance-tracker/app.js',
-  '/finance-tracker/manifest.json'
+  `${BASE_PATH}/`,
+  `${BASE_PATH}/index.html`,
+  `${BASE_PATH}/styles.css`,
+  `${BASE_PATH}/app.js`,
+  `${BASE_PATH}/manifest.json`
 ];
 
 // Install service worker
