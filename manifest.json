@@ -2,7 +2,7 @@
   "name": "Финансы",
   "short_name": "Финансы",
   "description": "Учёт доходов и расходов",
-  "start_url": "/",
+  "start_url": "/finance-tracker/",
   "display": "standalone",
   "background_color": "#0F172A",
   "theme_color": "#0F172A",
